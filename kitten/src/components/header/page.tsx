@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 // const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
 const apiKey = process.env.NEXT_PUBLIC_API_KEY; // 注意这里
-// console.log("API_KEY", apiKey); // 确保这里能正确输出 API 密钥
+console.log("API_KEY", apiKey); // 确保这里能正确输出 API 密钥
 
 const Header = () => {
   useEffect(() => {
